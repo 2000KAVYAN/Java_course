@@ -1,3 +1,5 @@
+package com.arrays;
+
 public class Customer {
 
     private String name;
@@ -10,7 +12,7 @@ public class Customer {
         this.email=email;
     }
     public String getName(){
-    return name;
+        return name;
     }
 
     public void setName(String name){
@@ -37,4 +39,5 @@ public class Customer {
     }
 
 }
+
 
