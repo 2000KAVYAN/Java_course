@@ -1,5 +1,4 @@
-package com.linkedlist;
-import java.util.LinkedList;
+package com.list;
 
 class LL {
     Node head;
