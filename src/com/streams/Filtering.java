@@ -17,6 +17,14 @@ public class Filtering {
                                 .map(n->n*2)
                 .reduce(0,(c,e)-> c+e);
 
-        System.out.println(result);
+        System.out.println("adding even integers: "+result);
+
+        Stream<Integer> sortedValues = num.stream()
+                .filter(n-> (n%2!=0))
+                .sorted();
+
+        System.out.println("odd integers from a list: ");
+        sortedValues.forEach(n-> System.out.println(n));
+
     }
 }
